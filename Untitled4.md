@@ -529,5 +529,4 @@ res.plot(kind='bar', stacked=False, grid=False, legend=False)
 2. There is no good sets of stopwords
 Preprocessing phase is very crucial to accurate classification model training!
 
- </div>
 ```
