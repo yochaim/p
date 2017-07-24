@@ -1,6 +1,6 @@
 
 # RNN
-
+We trained the model twice, model for each gender
 
 ```python
 from __future__ import print_function
@@ -25,6 +25,8 @@ import pandas as pd
 ```python
 #read the data
 df1 = pd.read_table('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\m.txt', header=None ,error_bad_lines=False)
+# df1 = pd.read_table('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\f.txt', header=None ,error_bad_lines=False)
+
 #mark end of message
 df1=df1.apply(lambda x: x+' סוףהודעה')
 #concat all messages
@@ -159,7 +161,8 @@ def concatenate_list_data(list):
 
 ```python
 from keras.models import load_model
-maodel = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5m.h5')
+model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5m.h5')
+# model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
 
@@ -223,6 +226,7 @@ model.fit(X, y,
 ```python
 #save the model
 model.save('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5m.h5')
+# model.save('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
 
@@ -266,14 +270,6 @@ for i in range(0,3):
         if(len(sen_to_file.split(' '))>1):
             to_file.append(sen_to_file)
 ```
-
-    
-    מתי אתמול
-    
-    אז לאילת
-    
-    באמת הכרטיס לא השלישי
-    
 
 
 ```python
