@@ -524,9 +524,10 @@ res.plot(kind='bar', stacked=False, grid=False, legend=False)
 ![png](output_37_1.png)
 
 ```python
-<div style="direction:rtl"> 
-*קשיים בעבודה:
-1. אין כלים חינמיים לעיבוד טקסט בעברית- כדוגמת סטמינג
-2. אין מאגר טוב ל stopwords
+*difficulties and conclusions
+1. There are no free text processing tools like Stemming
+2. There is no good sets of stopwords
+Preprocessing phase is very crucial to accurate classification model training!
+
  </div>
 ```
