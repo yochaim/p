@@ -524,7 +524,9 @@ res.plot(kind='bar', stacked=False, grid=False, legend=False)
 ![png](output_37_1.png)
 
 ```python
+<div style="direction:rtl"> 
 *קשיים בעבודה:
 1. אין כלים חינמיים לעיבוד טקסט בעברית- כדוגמת סטמינג
 2. אין מאגר טוב ל stopwords
+ </div>
 ```
