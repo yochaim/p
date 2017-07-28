@@ -4,6 +4,8 @@
 The Long Short-Term Memory network or LSTM network is a type of recurrent neural network used in deep learning because very large architectures can be successfully trained.
 Is a recurrent neural network that is trained using Backpropagation Through Time and overcomes the vanishing gradient problem
 
+* We train the model twice, foe each gender
+
 ```python
 from __future__ import print_function
 from keras.models import Sequential
