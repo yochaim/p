@@ -766,5 +766,5 @@ The model with the highest accuracy is Logistic regressing Model. </br>
 problems:
 
 1. There are no free text processing tools like Stemming which support the Hebrew language
-2. There is no good sets of stopwords 
-Preprocessing phase is very crucial to accurate classification model training!</br>
+2. There is no good sets of stopwords </br>
+Preprocessing phase is very crucial to accurate classification model training!
