@@ -50,7 +50,7 @@ print('total words:', vocab_size)
 
     total words: 22842
     
-
+Build index_to_word and word_to_index vectors
 
 ```python
 # build index_to_word and word_to_index vectors
@@ -62,7 +62,7 @@ indices_word = dict((i, w) for i, w in enumerate(words))
 ```python
 text_sen=df1[0].tolist()
 ```
-
+Cut the text in semi-redundant sequences of maxlen words
 
 ```python
 maxlen = 5
@@ -99,7 +99,7 @@ for i, sentence in enumerate(sentences):
 
     Vectorization...
     
-
+Build the model
 
 ```python
 # build the model: LSTM
@@ -130,6 +130,7 @@ model.summary()
     _________________________________________________________________
     
 
+Compile the model
 
 ```python
 #compile the model.
@@ -161,6 +162,7 @@ def concatenate_list_data(list):
     return result[0:-1]
 ```
 
+Model loading
 
 ```python
 from keras.models import load_model
@@ -168,6 +170,7 @@ model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5m.h5
 # model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
+Train the model, fit it to the data
 
 ```python
 #train the model, fit it to the data
@@ -224,7 +227,7 @@ model.fit(X, y,
     <keras.callbacks.History at 0x2797b0645f8>
 
 
-
+Save the model
 
 ```python
 #save the model
@@ -232,6 +235,7 @@ model.save('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5m.h5')
 # model.save('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
+Generate new sentences
 
 ```python
 #generate new sentences
