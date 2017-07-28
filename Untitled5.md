@@ -102,6 +102,9 @@ for i, sentence in enumerate(sentences):
     Vectorization...
     
 Build the model
+* LSTM layer
+* A Dense layer with len(words) nodes
+* Activation function= softmax
 
 ```python
 # build the model: LSTM
