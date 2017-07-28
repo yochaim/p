@@ -1,6 +1,8 @@
 
-# RNN
-We trained the model twice, model for each gender
+# RNN_LSTM
+
+The Long Short-Term Memory network or LSTM network is a type of recurrent neural network used in deep learning because very large architectures can be successfully trained.
+Is a recurrent neural network that is trained using Backpropagation Through Time and overcomes the vanishing gradient problem
 
 ```python
 from __future__ import print_function
@@ -20,7 +22,8 @@ import pandas as pd
 
     Using TensorFlow backend.
     
-
+read the data
+mark end of message
 
 ```python
 #read the data
@@ -33,7 +36,7 @@ df1=df1.apply(lambda x: x+' סוףהודעה')
 X2=df1[0].tolist()
 text= ' '.join(X2)
 ```
-
+Split a sentence into a list of words.
 
 ```python
 from keras.preprocessing.text import text_to_word_sequence
