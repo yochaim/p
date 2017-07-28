@@ -524,10 +524,12 @@ res.plot(kind='bar', stacked=False, grid=False, legend=False)
 
 ![png](output_37_1.png)
 
-```python
-*difficulties and conclusions
-1. There are no free text processing tools like Stemming
+# Summery
+The model with the highest accuracy is Logistic regressing Model. </br>
+
+problems:
+1. There are no free text processing tools like Stemming which support the Hebrew language
 2. There is no good sets of stopwords
 Preprocessing phase is very crucial to accurate classification model training!
 
-```
+
