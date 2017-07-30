@@ -24,8 +24,8 @@ import pandas as pd
     Using TensorFlow backend.
     
 
-read the data  
-mark end of message
+Read the data  
+Mark end of message
 
 
 ```python
@@ -55,7 +55,7 @@ print('total words:', vocab_size)
     total words: 25577
     
 
-build index_to_word and word_to_index vectors
+Build index_to_word and word_to_index vectors
 
 
 ```python
@@ -69,7 +69,7 @@ indices_word = dict((i, w) for i, w in enumerate(words))
 text_sen=df1[0].tolist()
 ```
 
-cut the text in semi-redundant sequences of maxlen words
+Cut the text in semi-redundant sequences of maxlen words
 
 
 ```python
@@ -108,7 +108,7 @@ for i, sentence in enumerate(sentences):
     Vectorization...
     
 
-build the model </br>
+Build the model </br>
 * LSTM layer
 * A Dense layer with len(words) nodes
 * Activation function= softmax
@@ -143,7 +143,7 @@ model.summary()
     _________________________________________________________________
     
 
-compile the model
+Compile the model
 
 
 ```python
@@ -176,7 +176,7 @@ def concatenate_list_data(list):
     return result[0:-1]
 ```
 
-model loading
+Model loading
 
 
 ```python
@@ -184,7 +184,7 @@ from keras.models import load_model
 model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
-train the model, fit it to the data
+Train the model, fit it to the data
 
 
 ```python
@@ -243,7 +243,7 @@ model.fit(X, y,
 
 
 
-save the model
+Save the model
 
 
 ```python
@@ -251,7 +251,7 @@ save the model
 model.save('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5ff.h5')
 ```
 
-generate new sentences
+Generate new sentences
 
 
 ```python
