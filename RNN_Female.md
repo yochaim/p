@@ -248,7 +248,7 @@ Save the model
 
 ```python
 # save the model
-model.save('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5ff.h5')
+model.save('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
 Generate new sentences
