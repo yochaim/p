@@ -1,10 +1,8 @@
 
-# RNN_LSTM
+# RNN_LSTM-Male
 
 The Long Short-Term Memory network or LSTM network is a type of recurrent neural network used in deep learning because very large architectures can be successfully trained.
 Is a recurrent neural network that is trained using Backpropagation Through Time and overcomes the vanishing gradient problem
-
-* We train the model twice, Once for each gender
 
 ```python
 from __future__ import print_function
@@ -24,13 +22,12 @@ import pandas as pd
 
     Using TensorFlow backend.
     
-read the data <br />
+read the data  
 mark end of message
 
 ```python
 #read the data
 df1 = pd.read_table('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\m.txt', header=None ,error_bad_lines=False)
-# df1 = pd.read_table('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\f.txt', header=None ,error_bad_lines=False)
 
 #mark end of message
 df1=df1.apply(lambda x: x+' סוףהודעה')
@@ -172,7 +169,6 @@ Model loading
 ```python
 from keras.models import load_model
 model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5m.h5')
-# model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
 Train the model, fit it to the data
@@ -245,7 +241,7 @@ Generate new sentences
 ```python
 #generate new sentences
 to_file=[]
-for i in range(0,3):
+for i in range(0,1500):
     #select seed index- first word of the sentance
     start_index = random.randint(0, len(words1) - maxlen - 1)
     while(words1[start_index:start_index+1][0] == 'סוףהודעה'):
