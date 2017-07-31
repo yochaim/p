@@ -224,7 +224,7 @@ print("Accuracy:",scores[1]*100,"%")
     Accuracy: 75.5555555556 %
     
 
-Train the model</BR>  
+Train the model  
 Fit it to the all data
 
 
