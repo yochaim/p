@@ -1018,7 +1018,7 @@ res.plot(kind='bar', stacked=False, grid=False, legend=False)
 1. Data Analysis with virtualization- is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information and suggesting conclusions.
 2. Feature extraction from an initial set of measured data and builds derived values (features) intended to be informative and non-redundant. we used many features and used with bad of words models like tfidf and topic modeling.
 3. Features Selection- It is the selection of attributes in your data that are most relevant to the predictive modeling problem you are working on.
-4. Models Traning
+4. Models training
 
 ###  part3
 1. Build rnn model
