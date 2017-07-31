@@ -184,7 +184,7 @@ from keras.models import load_model
 model = load_model('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\modelrnn5f.h5')
 ```
 
-Train the model, fit it to the data
+Train the model, fit it to All data
 
 
 ```python
