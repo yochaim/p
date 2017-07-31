@@ -1021,18 +1021,18 @@ res.plot(kind='bar', stacked=False, grid=False, legend=False)
 4. Models training
 
 ###  part3
-1. Build rnn model
-2. Generate new sequences, new messages for each gender.
+1. Build rnn model- LSTM and 2words Model
+2. Generate new sequences\new messages for each gender.
 
 ### part4
 1. Test the models with new sequences(rnn results)  
 
 # Conclusions
 1. Preprocessing phase is very crucial to accurate classification model training!
-2. According to the results of the model we can see that with the features we created can be classified well between the messages and the types of each species.
+2. According to the results of the model  we can see that with the features that we created, can be classified well between messages of each species.
 3. To improve the neural network model, we need to train it longer and work with more data- More time is better, More data is better.
 4. The model with the highest accuracy is Logistic regressing Model(0.847926).
 
 # Problems
 1. There are no free text processing tools like Stemming which support the Hebrew language
-2. There is no good sets of stopwords.
+2. There is no good set of stopwords.
