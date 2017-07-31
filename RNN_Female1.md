@@ -365,7 +365,7 @@ for i in range(0,1500):
 
 
 ```python
-save to file
+#save to file
 with open('C:\\Users\\DELL\\Desktop\\data_scientist\\rnn\\ff_new.txt', 'w', newline='\n', encoding='utf-8') as txt_file:
     writer = csv.writer(txt_file, delimiter='\n')
     writer.writerow(to_file)
