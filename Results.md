@@ -1011,25 +1011,26 @@ res.plot(kind='bar', stacked=False, grid=False, legend=False)
 
 # Summery
 ### part1
-1. Data Collection- Collect messages from whatsapp. Data Selection Consider what data is available, what data is missing and what data can be removed.
-2. Preprocessing- Data Cleaning, Data Preprocessing Organize your selected data by formatting, cleaning and sampling from it.
+1. Data Collection- Collect messages from whatsapp.  
+Data Selection Consider what data is available, what data is missing and what data can be removed.
+2. Preprocessing- Data Preprocessing Organize our selected data by formatting, cleaning and sampling from it.
 
 ###  part2
 1. Data Analysis with virtualization- is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information and suggesting conclusions.
 2. Feature extraction from an initial set of measured data and builds derived values (features) intended to be informative and non-redundant. we used many features and used with bad of words models like tfidf and topic modeling.
 3. Features Selection- It is the selection of attributes in your data that are most relevant to the predictive modeling problem you are working on.
-4. Models training
+4. Models training- Testing of some classification models and selecting optimal parameters.
 
 ###  part3
-1. Build rnn model- LSTM and 2words Model
-2. Generate new sequences\new messages for each gender.
+1. Build rnn model- using LSTM and 2words model
+2. Generate new sequences\new messages for each gender- by best model(first)
 
 ### part4
-1. Test the models with new sequences(rnn results)  
+1. Test the models with new sequences(rnn results) 
 
 # Conclusions
 1. Preprocessing phase is very crucial to accurate classification model training!
-2. According to the results of the model  we can see that with the features that we created, can be classified well between messages of each species.
+2. According to the results of the model  we can see that with the features that we extracted, can be classified well between messages of each species.
 3. To improve the neural network model, we need to train it longer and work with more data- More time is better, More data is better.
 4. The model with the highest accuracy is Logistic regressing Model(0.847926).
 
