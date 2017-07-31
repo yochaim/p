@@ -294,6 +294,12 @@ for i in range(0,1500):
             to_file.append(sen_to_file)
 ```
 
+    לא וחבילה אנחנו חיים שלי ❤❤ יפה בסדר ככה חחח לי יש צריכות
+    עדן קלטתי עוד יותר גיבורה לא עלינו זה זמן שתשלחו מה המון על
+    אז מביאה פה להבטיח פשוט ואוו רציתי על חחח על שהאוהל 😁 לפני
+    שכל הבא אף שלא שחשבתי תשע החנייבץ מעולה עדן יכולה בחזור אברמוב
+    כזה לא צריך אצל חזר חוץ להמשיך וזה אחותי ביום בינינו היא ב18
+
 
 ```python
 import csv
