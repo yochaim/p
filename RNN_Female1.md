@@ -568,7 +568,7 @@ scores = model4.evaluate(test_x, test_y, verbose=1)
 print("Accuracy:",scores[1]*100,"%")
 ```
 
-    832/900 [==========================>...] - ETA: 0sAccuracy cv: 70.1111111111 %
+    832/900 [==========================>...] - ETA: 0sAccuracy: 70.1111111111 %
     
 
 Train the model</BR>  
