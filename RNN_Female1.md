@@ -164,8 +164,8 @@ model.summary()
     _________________________________________________________________
     
 
-Compile the model</br>  
-We use the RMSProp optimizer</br>  
+Compile the model  
+We use the RMSProp optimizer  
 We use the sparse_categorical_crossentropy loss that accepts sparse labels
 
 
