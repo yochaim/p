@@ -571,7 +571,7 @@ print("Accuracy:",scores[1]*100,"%")
     832/900 [==========================>...] - ETA: 0sAccuracy: 70.1111111111 %
     
 
-Train the model</BR>  
+Train the model  
 Fit it to the all data
 
 
