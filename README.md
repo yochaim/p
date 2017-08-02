@@ -5,7 +5,7 @@
 2. Build rnn models, Generate new sequences  
 [RNN_Female](https://github.com/yochaim/p/blob/master/RNN_Female1.md)  
 [RNN_Male](https://github.com/yochaim/p/blob/master/RNN_Male1.md)  
-3. Data Analysis, Feature extraction, Features Selection, Build Classifier Models, Test the models with new sequences+Summery+Conclusions  
+3. Data Analysis, Feature extraction, Features Selection, Build Classifier Models, Test the models with new sequences, Summery+Conclusions  
 [Results](https://github.com/yochaim/p/blob/master/Results.md)
 
 *the part of the build the classifier models(from part 2) is in part2 folder
