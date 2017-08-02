@@ -462,8 +462,8 @@ from difflib import SequenceMatcher
 
 #distances between male messages and fimale messages
 for i in range(0,1):
-    data_f=df[df['gender']==1]
-    data_m=df[df['gender']==0]
+    data_f=df_vis[df_vis['gender']==1]
+    data_m=df_vis[df_vis['gender']==0]
     list_f=list(data_f.message_clean.values)
     list_m=list(data_m.message_clean.values)
     list_dist=list()
