@@ -452,6 +452,38 @@ plt.show()
 
 ![png](output_29_0.png)
 
+### distances between female & male messages
+distances by Sequence
+
+
+```python
+import Levenshtein
+from difflib import SequenceMatcher
+
+#distances between male messages and fimale messages
+for i in range(0,1):
+    data_f=df[df['gender']==1]
+    data_m=df[df['gender']==0]
+    list_f=list(data_f.message_clean.values)
+    list_m=list(data_m.message_clean.values)
+    list_dist=list()
+    for i in list_m:
+        for j in list_f:
+            list_dist.append(float(SequenceMatcher(None, i, j).ratio()))
+```
+
+
+```python
+import matplotlib.mlab as mlab
+
+# histogram of the distances data
+n, bins, patches = plt.hist(list_dist, 100, normed=3, facecolor='green', alpha=0.75)
+plt.grid(True)
+plt.show()
+```
+
+
+![png](output_34_0.png)
 
 # Modeling
 
