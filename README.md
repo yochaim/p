@@ -8,10 +8,11 @@
 3. Data Analysis, Feature extraction, Features Selection, Build Classifier Models, Test the models with new sequences  
 [Results](https://github.com/yochaim/p/blob/master/Results.md)
 
+**the part of the build the classifier models(from part 2) is in part2 folder
 
-*part 1 of the project- Collect_data.md
-*part 2 of the project- in folder part2- build the classifier models
-*part 3+4 of the project- rnn_female, rnn_male, results
-*All text files in txt folder
+*part 1 of the project- Collect_data.md  
+*part 2 of the project(build the classifier models)- in folder part2  
+*part 3+4 of the project- rnn_female, rnn_male, results  
+*All text files in txt folder  
 
 @Yochai Mashiah, Eden Ya'akobi
